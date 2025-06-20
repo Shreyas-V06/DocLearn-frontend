@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #0A0A0A;
+    font-family: "Inter", sans-serif;
+    margin: 30;
+    padding: 0;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.header a span {
+    color: #F2385D;
+}
+
+.header a:hover {
+    font-size: 26px;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-direction: row; 
+    padding: 40px;
+    gap: 40px;
+}
+
+.main_section {
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+.question_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.question_box input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.question_box button {
+    background-color: #F2385D;
+    color: black;
+    border: 2px solid #F2385D;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.question_box button:hover {
+    background-color: black;
+    color: #F2385D;
+    border: 2px solid #F2385D;
+}
+
+
+.image_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    .file_upload
+    {
+        border: 5px solid #F2385D;
+        color: #F2385D;
+        padding: 0px 30px 20px 20px;
+        border-radius: 30px;
+        
+    }
+
+    
+}
+
+.image_section input[type="file"] {
+    display:none;
+
+}
+
+.image_section input[type="file"]:hover{
+  
+    cursor:pointer;
+}
+
+.response_box {
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: flex-start;
+
+    .image_section
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+}
+
+.custom-file-upload {
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #F2385D;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: black;
+    color: #F2385D;
+    border: 2px solid #F2385D;
+}
